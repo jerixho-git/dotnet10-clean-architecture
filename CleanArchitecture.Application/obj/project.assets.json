@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net10.0": {
-      "CleanArchitecture.Domain/1.0.0": {
+      "App.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "compile": {
-          "bin/placeholder/CleanArchitecture.Domain.dll": {}
+          "bin/placeholder/App.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CleanArchitecture.Domain.dll": {}
+          "bin/placeholder/App.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "CleanArchitecture.Domain/1.0.0": {
+    "App.Domain/1.0.0": {
       "type": "project",
-      "path": "../CleanArchitecture.Domain/CleanArchitecture.Domain.csproj",
-      "msbuildProject": "../CleanArchitecture.Domain/CleanArchitecture.Domain.csproj"
+      "path": "../App.Domain/App.Domain.csproj",
+      "msbuildProject": "../App.Domain/App.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "CleanArchitecture.Domain >= 1.0.0"
+      "App.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vilor\\OneDrive\\Documents\\dotnet10-clean-architecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
-      "projectName": "CleanArchitecture.Application",
-      "projectPath": "C:\\Users\\vilor\\OneDrive\\Documents\\dotnet10-clean-architecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+      "projectUniqueName": "C:\\Users\\vilor\\OneDrive\\Documents\\dotnet10-clean-architecture\\CleanArchitecture.Application\\App.Application.csproj",
+      "projectName": "App.Application",
+      "projectPath": "C:\\Users\\vilor\\OneDrive\\Documents\\dotnet10-clean-architecture\\CleanArchitecture.Application\\App.Application.csproj",
       "packagesPath": "C:\\Users\\vilor\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\vilor\\OneDrive\\Documents\\dotnet10-clean-architecture\\CleanArchitecture.Application\\obj\\",
       "projectStyle": "PackageReference",
@@ -58,8 +58,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\vilor\\OneDrive\\Documents\\dotnet10-clean-architecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
-              "projectPath": "C:\\Users\\vilor\\OneDrive\\Documents\\dotnet10-clean-architecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+            "C:\\Users\\vilor\\OneDrive\\Documents\\dotnet10-clean-architecture\\App.Domain\\App.Domain.csproj": {
+              "projectPath": "C:\\Users\\vilor\\OneDrive\\Documents\\dotnet10-clean-architecture\\App.Domain\\App.Domain.csproj"
             }
           }
         }
